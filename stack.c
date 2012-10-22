@@ -27,7 +27,6 @@ int push(Stack *s, int val) {
         show_stack(s);
         exit(1);
     }
-
     return 0;
 }
 
@@ -41,7 +40,6 @@ int pop(Stack *s) {
 
 void show_stack(Stack *s) {
     int i = s->p;
-
     for(; i >= 0; i--) {
         printf("%d\n", pop(s));
     }

@@ -1,0 +1,4 @@
+Stack
+=====
+
+Example of stack
